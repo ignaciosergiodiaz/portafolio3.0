@@ -1,0 +1,66 @@
+body{
+    color:#FFE9D9 ;
+    overflow-x: hiddend;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 1.3rem;
+    background: #3F2566;
+    background: -moz-linear-gradient(45deg, #3F2566 0%, #1C112E 0%, #653BA3 100%);
+    background: -webkit-linear-gradient(45deg, #3F2566 0%, #1C112E 0%, #653BA3 100%);
+    background: linear-gradient(90deg, #3F2566 0%, #1C112E 0%, #653BA3 100%);
+}
+
+.navbar{
+    font-size: 1.1rem;
+    background:#1D1B33 !important;
+}
+
+.button{
+    background-color: #5D24FF;
+    border-radius: 60px;
+    width: 141px;
+    height:35px;
+    border: none !important;
+}
+
+.paragraph-studio{
+    text-align: left !important;
+}
+
+li{
+    list-style: none;
+    float:left;
+    margin-left:1.2rem;
+}
+
+.content{
+    margin-left:auto;
+    margin-right:auto;
+    height: 500px;
+    position:relative;
+    top:70px;
+}
+
+.offcanvas{
+    background-color: #1C112E !important;
+    width: 250px !important;
+}
+
+.offcanvas-title{
+    color:#fff;
+    position: relative;
+    left:20px;
+    top:10px;
+}
+
+@media screen and ( max-width:500px){
+    
+   .body{
+        text-align: center !important;
+        background-color: #3F2566;
+   }
+
+   .galeria-iconos img{
+        display: inline !important;
+   }
+}
